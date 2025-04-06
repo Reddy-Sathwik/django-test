@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bw&c*6hx4typmoshw-5ao!p12f^ce(q-m&e@wr=5=jkqkokxze
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+ROOT_URLCONF = 'myfirstapp.urls'
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
